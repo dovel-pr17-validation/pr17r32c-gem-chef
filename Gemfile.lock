@@ -37,7 +37,6 @@ GIT
   specs:
     rest-client (2.1.0)
       base64
-      ffi (>= 1.15.5, < 1.18.0)
       http-accept (~> 2.1.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
@@ -223,7 +222,7 @@ GEM
     chef-telemetry (1.1.1)
       chef-config
       concurrent-ruby (~> 1.0)
-    chef-vault (4.2.12)
+    chef-vault (4.2.16)
       syslog (~> 0.3)
     chef-winrm (2.5.0)
       builder (>= 2.1.2)
